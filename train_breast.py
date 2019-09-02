@@ -12,7 +12,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # parser
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, default='breast') # breast, credit
+parser.add_argument('--dataset', type=str, default='breast')
 parser.add_argument('--rate', type=str, default='0.2') # 0.0 to 0.9
 args = parser.parse_args()
 
