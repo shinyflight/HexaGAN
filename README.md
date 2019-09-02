@@ -4,7 +4,7 @@
 
 ![HexaGAN_model](https://user-images.githubusercontent.com/25117385/64109029-66de4f80-cdb9-11e9-9e57-93797996de33.png)
 
-When dealing with the real world data, we encounter three problems such as 1) missing data, 2) class imbalance, and 3) missing label problems. In this paper, we propose HexaGAN, a generative adversarial network framework that shows promising classification performance for all three problems. <br><br>
+When dealing with the real world data, we encounter three problems such as 1) missing data, 2) class imbalance, and 3) missing label problems. In this paper, we propose HexaGAN, a generative adversarial network framework that shows promising classification performance for all three problems. <br>
 
 
 * Authors: Uiwon Hwang, Dahuin Jung, Sungroh Yoon
@@ -20,9 +20,9 @@ When dealing with the real world data, we encounter three problems such as 1) mi
 
 * ops.py: various operations for building neural networks and data loading
 
-* ops_cnn.py: various operations for convolutional neural networks (for MNIST data)
+* ops_cnn.py: various operations for convolutional neural networks (for the MNIST dataset)
 
-* model.py: HexaGAN model (used for train_breast.py)
+* model.py: HexaGAN model (for the breast dataset)
 
 * train_breast.py: classification on the breast dataset with 20% missingness
 
