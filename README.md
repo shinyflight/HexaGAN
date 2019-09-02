@@ -22,6 +22,8 @@ When dealing with the real world data, we encounter three problems such as 1) mi
 
 * ops_cnn.py: various operations for convolutional neural networks (for MNIST data)
 
-* HexaGAN_breast.py: classification on the breast dataset with 20% missingness
+* model.py: HexaGAN model (used for train_breast.py)
 
-* HexaGAN_MNIST.py: missing data imputation on the MNIST dataset with 50% missingness
+* train_breast.py: classification on the breast dataset with 20% missingness
+
+* train_mnist.py: missing data imputation on the MNIST dataset with 50% missingness (including HexaGAN model)
