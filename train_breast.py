@@ -5,7 +5,7 @@ import os
 from sklearn import metrics
 import csv
 import warnings
-from HexaGAN_breast import *
+from model import *
 from sklearn.exceptions import UndefinedMetricWarning
 warnings.filterwarnings(action='ignore', category=UndefinedMetricWarning)
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -18,7 +18,7 @@ args = parser.parse_args()
 
 # set GPU ID
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"]="1"
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 # hyperparameters
 save_bool = True # save results
