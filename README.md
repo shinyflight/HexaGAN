@@ -1,13 +1,13 @@
 ## HexaGAN: Generative Adversarial Nets for Real World Classification
 
-### A Tensorflow implementation of HexaGAN (Pytorch version will be uploaded)
+### A Tensorflow Implementation of HexaGAN (Pytorch version will be uploaded)
 
 ![HexaGAN_model](https://user-images.githubusercontent.com/25117385/64109029-66de4f80-cdb9-11e9-9e57-93797996de33.png)
 
 When dealing with the real world data, we encounter three problems such as 1) missing data, 2) class imbalance, and 3) missing label problems. In this paper, we propose HexaGAN, a generative adversarial network framework that shows promising classification performance for all three problems. <br>
 
 
-* Authors: Uiwon Hwang, Dahuin Jung, Sungroh Yoon
+* Reference: Uiwon Hwang, Dahuin Jung, Sungroh Yoon. “HexaGAN: Generative Adversarial Nets for Real World Classification.” International Conference on Machine Learning (ICML), 2019
 
 * Paper URL: http://proceedings.mlr.press/v97/hwang19a/hwang19a.pdf
 
